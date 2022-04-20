@@ -1,0 +1,59 @@
+title: Osaetin daniel
+email: osaetindaniel@gmail.com
+description: A Jekyll blog where i keep my findings in the ever exciting world of programming
+url: "https://danidee10.github.io"
+twitter_username: osaetindaniel
+github_username:  danidee10
+
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
+collections: null
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      ["vendor"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+plugins:      [jekyll-paginate]
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+
+# Outputting
+permalink:     date
+timezone:      null
+
+quiet:    false
+defaults: []
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
